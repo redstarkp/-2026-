@@ -1,129 +1,269 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>레드 스타 조인트</title>
+<title>Redstar 2026</title>
 
 <style>
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
-    background:#f1f1f1;
-    color:#111;
+    background:#efefef;
+    color:#222;
 }
 
-.topbar{
+.wrapper{
     width:100%;
-    background:#ffffff;
-    border-bottom:1px solid #dcdcdc;
-    padding:14px 20px;
-
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-}
-
-.logo{
-    font-size:18px;
-    font-weight:700;
-    letter-spacing:1px;
-}
-
-.status{
-    font-size:12px;
-    color:#666;
-}
-
-.container{
-    width:100%;
-    max-width:1000px;
+    max-width:360px;
     margin:auto;
-    padding:25px 18px;
-}
-
-.panel{
     background:white;
-    border:1px solid #dcdcdc;
-    border-radius:8px;
-    padding:25px;
+    min-height:100vh;
+    border-left:1px solid #d8d8d8;
+    border-right:1px solid #d8d8d8;
 }
 
-.title{
-    font-size:28px;
+/* HEADER */
+
+.header{
+    text-align:center;
+    padding:14px 10px;
+    border-bottom:1px solid #ddd;
+    background:#fafafa;
+}
+
+.header h1{
+    font-size:14px;
     font-weight:700;
-    margin-bottom:14px;
+    line-height:1.5;
 }
 
-.line{
-    width:70px;
-    height:3px;
-    background:#444;
-    margin-bottom:20px;
-}
+/* FEATURED */
 
-.desc{
-    color:#444;
-    line-height:1.8;
-    font-size:15px;
-}
-
-.notice{
-    margin-top:25px;
+.featured{
     padding:14px;
-    background:#f7f7f7;
-    border-left:4px solid #555;
-    font-size:13px;
-    color:#555;
 }
+
+.featured img{
+    width:100%;
+    border:1px solid #ddd;
+}
+
+.featured-title{
+    margin-top:10px;
+    font-size:13px;
+    font-weight:700;
+    line-height:1.5;
+    color:#244f99;
+}
+
+.featured-text{
+    margin-top:10px;
+    font-size:12px;
+    color:#444;
+    line-height:1.7;
+}
+
+/* QUOTE */
+
+.quote{
+    margin-top:12px;
+    border:1px solid #d9c1c1;
+    background:#fff8f8;
+    padding:10px;
+    font-size:12px;
+    color:#8d2f2f;
+    line-height:1.6;
+}
+
+/* NEWS */
+
+.section{
+    padding:0 14px 14px;
+}
+
+.section-title{
+    font-size:13px;
+    font-weight:700;
+    border-bottom:1px solid #ddd;
+    padding-bottom:6px;
+    margin-bottom:10px;
+    color:#333;
+}
+
+.news-item{
+    padding:8px 0;
+    border-bottom:1px dotted #d7d7d7;
+}
+
+.news-item a{
+    text-decoration:none;
+    color:#1b4b9c;
+    font-size:12px;
+    line-height:1.5;
+}
+
+.news-date{
+    color:#888;
+    font-size:11px;
+    margin-top:4px;
+}
+
+/* BANNER */
+
+.banner{
+    padding:14px;
+}
+
+.banner img{
+    width:100%;
+    border:1px solid #ddd;
+}
+
+/* GALLERY */
+
+.gallery{
+    padding:0 14px 14px;
+}
+
+.gallery img{
+    width:100%;
+    margin-bottom:10px;
+    border:1px solid #ddd;
+}
+
+/* FOOTER */
 
 .footer{
-    margin-top:25px;
-    color:#777;
-    font-size:12px;
+    background:#2b2b2b;
+    color:#ccc;
+    padding:18px 14px;
+    font-size:11px;
+    line-height:1.8;
     text-align:center;
 }
+
+.footer small{
+    color:#888;
+}
+
 </style>
 </head>
 
 <body>
 
-<div class="topbar">
-    <div class="logo">레드 스타 조인트</div>
-    <div class="status">ADMINISTRATIVE NETWORK</div>
+<div class="wrapper">
+
+<div class="header">
+    <h1>
+        WPK General Secretary Kim Jong Un's<br>
+        Revolutionary Activities
+    </h1>
 </div>
 
-<div class="container">
+<div class="featured">
 
-    <div class="panel">
+    <img src="https://picsum.photos/340/220" alt="">
 
-        <div class="title">
-            중앙 관리 시스템
-        </div>
-
-        <div class="line"></div>
-
-        <div class="desc">
-            본 플랫폼은 도시 통제 및 정부 관리 접근을 위한 공식 시스템입니다.
-            승인된 관리자 및 운영 인원만 접근 가능하며,
-            중앙 디지털 인프라 환경을 위해 유지·관리됩니다.
-        </div>
-
-        <div class="notice">
-            Authorized Administrative Personnel Only
-        </div>
-
+    <div class="featured-title">
+        Respected Comrade Kim Jong Un Visits Major Industrial Facility
     </div>
 
-    <div class="footer">
-        © 2026 레드 스타 조인트
+    <div class="featured-text">
+        The respected Comrade Kim Jong Un inspected a major industrial
+        production base and emphasized strengthening centralized
+        administrative systems and national infrastructure development.
     </div>
+
+    <div class="quote">
+        "All sectors must uphold the spirit of self-reliance and continue
+        improving the national management system."
+    </div>
+
+</div>
+
+<div class="section">
+
+    <div class="section-title">
+        News & Articles
+    </div>
+
+    <div class="news-item">
+        <a href="#">
+            Central Administrative Meeting Held Successfully
+        </a>
+
+        <div class="news-date">
+            [2026-06-05]
+        </div>
+    </div>
+
+    <div class="news-item">
+        <a href="#">
+            Government Infrastructure Modernization Expanded
+        </a>
+
+        <div class="news-date">
+            [2026-06-04]
+        </div>
+    </div>
+
+    <div class="news-item">
+        <a href="#">
+            National Industrial Production Targets Increased
+        </a>
+
+        <div class="news-date">
+            [2026-06-03]
+        </div>
+    </div>
+
+    <div class="news-item">
+        <a href="#">
+            Administrative Personnel Attend Strategic Conference
+        </a>
+
+        <div class="news-date">
+            [2026-06-02]
+        </div>
+    </div>
+
+</div>
+
+<div class="banner">
+
+    <img src="https://picsum.photos/340/120" alt="">
+
+</div>
+
+<div class="gallery">
+
+    <img src="https://picsum.photos/340/180" alt="">
+    <img src="https://picsum.photos/340/180" alt="">
+    <img src="https://picsum.photos/340/180" alt="">
+
+</div>
+
+<div class="footer">
+
+Pyongyang, DPR Korea<br>
+
+Tel: +850-2-18111-3814<br>
+
+<br>
+
+<small>
+Copyright © Redstar 2026
+</small>
+
+</div>
 
 </div>
 
